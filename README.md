@@ -2,16 +2,16 @@
 
 # Introduction
 
-This repository represents a web app for calculating European Options prices, including computation and visualization of the Option Greeks.
+This repository represents a web app for calculating European Options prices, including the computation and the visualization of the Option Greeks.
 
-The model has various parameters that user needs to adjust:
+The model has various parameters that user should adjust:
 
-1 - Type of option(Call or put)  
-2 - Spot price  
-3 - Strike  
-4 - Volatility  
-5 - Expiry date  
-6 - Risk-free rate  
+1. Type of option (Call or put)  
+2. Spot price  
+3. Strike  
+4. Volatility  
+5. Expiry date  
+6. Risk-free rate  
 
 
 # Files
@@ -24,7 +24,7 @@ The model has various parameters that user needs to adjust:
 ## Run Demo Locally 
 
 ### Shell
-It is recommended that you create new virtual environment (either venv or conda);
+It is recommended that you create a new virtual environment (either venv or conda).  
 You can directly run streamlit locally in the repo as follows:
 
 ```shell
