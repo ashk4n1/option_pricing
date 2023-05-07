@@ -102,7 +102,7 @@ if pricing_method == 'Black scholes':
     st.header("")
 
     st.write('### Visualization')
-    visualize = st.button(f'Plot Greeks:')
+    visualize = st.button(f'Plot Greeks')
 
     if visualize:
         two_subplot_fig = plt.figure()

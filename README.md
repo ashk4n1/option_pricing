@@ -15,7 +15,7 @@ The model has various parameters that user should adjust:
 
 
 # Files
-- `Requirements.txt` : package requirements files
+- `requirements.txt` : package requirements files
 - `option_price.py`: python file containing the main formulas
 - `dashboard_options.py`: streamlit app file
 - `Dockerfile` for docker deployment
@@ -30,7 +30,7 @@ You can directly run streamlit locally in the repo as follows:
 ```shell
 $ python -m venv venv
 $ source venv/bin/activate
-$ pip install -r Requirements.txt
+$ pip install -r requirements.txt
 $ streamlit run dashboard_options.py
 ```
 Open http://localhost:8501 to view the demo
