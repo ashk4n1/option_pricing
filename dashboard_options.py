@@ -145,7 +145,7 @@ if pricing_method == 'Black scholes':
         st.pyplot(two_subplot_fig)
 
     st.write('### Sensitivies')
-    greeks = st.button(f'Greeks formulas:')
+    greeks = st.button(f'Greeks formulas')
 
     if greeks:
         st.write(

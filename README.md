@@ -13,7 +13,8 @@ The model has various parameters that user should adjust:
 5. Expiry date  
 6. Risk-free rate  
 
-
+You can visualize and interact with the model at:  
+ https://ashk4n1-option-pricing-dashboard-options-2yswo4.streamlit.app/
 # Files
 - `requirements.txt` : package requirements files
 - `option_price.py`: python file containing the main formulas
