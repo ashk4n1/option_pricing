@@ -145,12 +145,12 @@ if pricing_method == 'Black scholes':
         st.pyplot(two_subplot_fig)
 
     st.write('### Sensitivies')
-    greeks = st.button(f'Greeks formulas')
+    greeks = st.button(f'Greeks formula')
 
     if greeks:
         st.write(
-            'A way of describing the reaction of option prices to a change in underlying parameter is to consider their sensitivities, which are also called the Greeks.')
-        st.write('The most common Greeks formulas is given by:')
+            'A way of describing the reaction of option prices to a change in the underlying parameter is to consider their sensitivities, which are also called the Greeks.')
+        st.write('The most common Greeks formula is given by:')
         st.write('**Delta** for a Call Option')
         st.latex(r'\Delta := \frac{\partial V}{\partial S} = e^{-(T-t)}N(d_1).')
         st.write('**Delta** for a  Put Option')
