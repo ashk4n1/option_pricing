@@ -62,7 +62,7 @@ def vega(S=200., K=200., T=1., r=0.1, sigma=0.25):
     
     d1 = (np.log(S/K) + (r + sigma**2 / 2) * T) / (sigma * np.sqrt(T))
     try:
-        vega = S * np.sqrt(T) * norm.pdf(d1)
+        vega = 0.01 * S * np.sqrt(T) * norm.pdf(d1)
         return vega
     except:
         st.sidebar.error("Please confirm all parameters!")
@@ -92,9 +92,9 @@ def rho(payoff='call', S=200., K=200., T=1., r=0.1, sigma=0.25):
     
     try:
         if payoff == "Call":
-            rho =  K * T * np.exp(-r*T) * norm.cdf(d2)
+            rho =  0.01 * K * T * np.exp(-r*T) * norm.cdf(d2)
         elif payoff == "Put":
-            rho = -K * T * np.exp(-r*T) * norm.cdf(-d2)
+            rho = 0.01 * -K * T * np.exp(-r*T) * norm.cdf(-d2)
         return rho
     except:
         st.sidebar.error("Please confirm all parameters!")
